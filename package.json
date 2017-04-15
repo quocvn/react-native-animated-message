@@ -1,0 +1,31 @@
+{
+  "name": "react-native-animated-message",
+  "version": "1.0.0",
+  "description": "A message alert component using animations for react native support for ios and android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quocnguyenvan/react-native-animated-message.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "message",
+    "animated",
+    "alert",
+    "animation",
+    "ios",
+    "android"
+  ],
+  "author": "Quoc Nguyen <quocnguyenvanst@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quocnguyenvan/react-native-animated-message/issues"
+  },
+  "homepage": "https://github.com/quocnguyenvan/react-native-animated-message#readme"
+}
