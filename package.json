@@ -1,6 +1,6 @@
 {
   "name": "react-native-animated-message",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A message alert component using animations for react native support for ios and android",
   "main": "index.js",
   "scripts": {
