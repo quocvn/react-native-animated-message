@@ -1,9 +1,27 @@
 # react-native-animated-message
 A message component using animations for react native support for both Android and iOS
+## Demo
+![demo](./example/demo.gif)
 ## Installation
 `npm i react-native-animated-message`
 ## Example
-Check index.js file in the example folder.
+Check [Example.js](https://github.com/quocnguyenvan/react-native-animated-message/blob/master/example/Example.js) file in the example folder.
+Or you can run the built examples step by step as below:
+1. Clone the repository:
+```
+git clone https://github.com/quocnguyenvan/react-native-animated-message.git
+```
+2. cd to `example`: `cd react-native-animated-message/example`
+3. Install dependencies: `npm install`
+4. Finally, run the apps:
+- iOS:
+```
+react-native run-ios
+``` 
+- Android:
+```
+react-native run-android
+```
 ## Usage
 ```js
 import Message from 'react-native-animated-message';
@@ -20,6 +38,8 @@ import Message from 'react-native-animated-message';
   </Message>
 </View>
 ```
+## Method
+- <b>showMessage</b>(<b>`message`</b>: *string*, <b>`duration`</b>: *number*)
 ## Props
 |  Prop | Default  | Type | Description |
 | :------------ |:---------------:| :---------------:| :-----|
@@ -28,3 +48,4 @@ import Message from 'react-native-animated-message';
 | messageHeight | 60 | `number` | The height of message
 | textStyle | {color: 'white', fontSize: 16, fontWeight: 'bold', textAlign: 'center'} | `style` | Style for message text
 | messageStyle | {backgroundColor: 'green'} | `style` | Style applied to the message
+### MIT Licensed
