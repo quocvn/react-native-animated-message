@@ -23,13 +23,11 @@ export default class Message extends Component {
           'bottom',
       ]),
       animation: PropTypes.oneOf(['zoom', 'slideX', 'slideY']),
-      duration: PropTypes.number,
-      messageHeight: PropTypes.number,
+      messageHeight: PropTypes.number
   }
   static defaultProps = {
-      position: 'center',
+      position: 'top',
       animation: 'slideX',
-      duration: 1000,
       messageHeight: 60,
       textStyle: {},
       messageStyle: {}
